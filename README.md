@@ -62,8 +62,13 @@ Type a query (e.g. "History of quantum computing”) and the agent will:
 
 ### Project Structure
 llm-agent/
+
 │── main.py           # Entry point for the agent
+
 │── tools.py          # Custom tools (search, wiki, save)
+
 │── requirements.txt  # Python dependencies
+
 │── .env              # API keys 
+
 │── research_output.txt (generated after saving)
